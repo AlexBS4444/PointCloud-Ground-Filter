@@ -1,0 +1,32 @@
+request_id: csf-report-20260912
+user_query: 将代码里的重要部分提取出来并进行适当讲解，以实习报告的内容展示，生成一个word文档
+current_stage: 3
+entry_type: full_pipeline
+output_docx_path: "D:/20260517_lidar_data_p/lidar_filtering/Project1/output/csf-report-20260912/stage3/激光雷达点云地面滤波算法实习报告.docx"
+output_docx_user_specified: false
+stage_1:
+  status: completed
+  output_path: "stage1/final_draft.md"
+  output_format: md
+stage_2:
+  status: completed
+  route: html
+  html_sub: template
+  output_path: "stage2/formatted-business-modern.html"
+  output_format: html
+  skills_invoked:
+    - design-token
+    - doc-typeset
+    - html-review
+stage_3:
+  status: completed
+  executor: doc-converter
+  input_format: html
+  output_path: "D:/20260517_lidar_data_p/lidar_filtering/Project1/output/csf-report-20260912/stage3/激光雷达点云地面滤波算法实习报告.docx"
+  skill_used:
+    - html-to-docx
+  present_files_opened: true
+  fallback: false
+  fallback_reason: null
+consistency_check:
+  status: completed

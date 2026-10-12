@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{97075e93-7e9d-43f4-872a-88366fe2297b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{b47b30ad-7ef4-4ffd-a412-f928e89aa1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{fd912c75-f820-4d71-be5f-0a50f6513928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GridIndex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SlopeFilter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudIO.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow8bom.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CSFFilter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FilterParams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridIndex.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SlopeFilter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudIO.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSFFilter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Forms</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

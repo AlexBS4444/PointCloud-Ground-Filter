@@ -1,0 +1,61 @@
+# Visual Studio / MSVC
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+Debug/
+Release/
+x64/
+ARM64/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.obj
+*.iobj
+*.ipdb
+*.exp
+*.app
+*.manifest
+*.res
+
+# Qt / moc / uic generated files
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.qm
+*.qrc.depends
+*.qt
+
+# Visual Studio project cache / logs
+*.tlog/
+*.lastbuildstate
+*.log
+*.cache
+*.pch
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# WorkBuddy internal metadata
+.workbuddy/
+
+# Temporary / OS files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Optional: keep output reports but exclude intermediate pipeline files
+output/csf-report-*/stage*/
+output/csf-report-*/working/
+output/csf-report-*/trace/
